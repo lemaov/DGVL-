@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: sans-serif;
     margin: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -20,25 +21,73 @@ header {
     padding: 10px;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     height: 80px;
     margin-right: 10px;
 }
-nav a{
+
+nav a {
     font-weight: 600;
     padding-right: 10px;
-    color:rgb(167, 42, 42)
-
+    color: rgb(167, 42, 42)
 }
-nav a:hover{
+
+nav a:hover {
     color: rgb(0, 0, 0);
 }
+
 body {
     background-image: url(./imagenes/fondo.jpeg);
 }
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp {
+    margin-left: 0px;
+    background-color: rgb(255, 39, 39);
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    border-radius: 5%;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.pre {
+    background-color: rgb(255, 39, 39);
+    padding: 2em 0;
+    width: 1x;
+    height: 300px;
+    margin-bottom: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 5%;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.products {
+    background-color: rgb(255, 39, 39);
+    margin-right: 50px;
+    width: 1000px;
+    border-radius: 5%;
+    text-align: center;
+    padding: 2em 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+
 /*lalalallaa hola dowdn aowd aod dn idfc nefnone ikanwdianw iodnw sik dik sk */
