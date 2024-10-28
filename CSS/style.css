@@ -11,7 +11,7 @@
 .conteiner {
     margin: auto;
     background-size: cover;
-    background-color: red;
+    background-color: rgb(104, 166, 236);
 }
 
 .inicio {
@@ -24,4 +24,9 @@
 
 .contacto {
     margin-top: 25px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: aliceblue;
 }
