@@ -41,10 +41,6 @@ nav a:hover {
     color: rgb(0, 0, 0);
 }
 
-body {
-    background-image: url(./imagenes/fondo.jpeg);
-}
-
 .main {
     display: flex;
     justify-content: space-between;
@@ -91,3 +87,11 @@ p {
 
 
 /*lalalallaa hola dowdn aowd aod dn idfc nefnone ikanwdianw iodnw sik dik sk */
+
+body {
+    background-image: url(../imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
