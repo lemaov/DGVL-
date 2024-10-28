@@ -1,4 +1,27 @@
-*{
-    margin: 0; 
-    padding:0;  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner {
+    margin: auto;
+    background-size: cover;
+    background-color: red;
+}
+
+.inicio {
+    margin-top: 25px;
+}
+
+.sobre {
+    margin-top: 25px;
+}
+
+.contacto {
+    margin-top: 25px;
 }
