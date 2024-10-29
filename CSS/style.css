@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-body {
-    font-family: sans-serif;
-    margin: 0;
-}
-
 a {
     text-decoration: none;
 }
@@ -75,7 +70,6 @@ nav a:hover {
 }
 
 .products {
-    padding: 2em 0;
     background-color: rgb(255, 255, 255);
     margin-right: 50px;
     width: 1000px;
@@ -83,6 +77,7 @@ nav a:hover {
     text-align: center;
     padding: 2em 0;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
+    margin-top: 20px;
 }
 
 p {
@@ -90,85 +85,86 @@ p {
 }
 
 body {
-    background-image: url(../imagenes/fondo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-image: url(../imagenes/fondo-abstracto-moderno-azul-rojo-blanco-colorido_222229-3632.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
 }
+
 
 /*PACHA*/
 
-
-.content{
+.content {
     margin-left: 20px;
     justify-content: center;
-    height: 17rem;
+    height: 19rem;
     width: 20rem;
     background-color: rgb(11, 11, 87);
     border-radius: 10%;
     border-color: #111;
     border-width: 10%;
     color: white;
-
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
 }
 
-.content-num{
+.content-num {
     margin-left: 20px;
     justify-content: center;
-    height: 17rem;
+    height: 19rem;
     width: 20rem;
     background-color: rgb(11, 11, 87);
     border-radius: 10%;
     border-color: #111;
     border-width: 10%;
     color: white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
 }
-img{
+
+img {
     justify-content: center;
 }
 
-.content-mail{
+.content-mail {
     margin-left: 20px;
     justify-content: center;
-    height: 17rem;
-    width: 20rem;
-    background-color: rgb(11, 11, 87) ;
-    border-radius: 10%;
-    border-color: #111;
-    border-width: 10%;
-    color: white;
-
-}
-
-.content-face{
-    margin-left: 20px;
-    justify-content: center;
-    height: 17 rem;
+    height: 19rem;
     width: 20rem;
     background-color: rgb(11, 11, 87);
     border-radius: 10%;
     border-color: #111;
     border-width: 10%;
     color: white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
 }
 
-.box{
+.content-face {
+    margin-left: 20px;
+    justify-content: center;
+    height: 19 rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
+}
+
+.box {
     justify-content: space-between;
     display: flex;
     padding: 250px;
 }
 
-a{
+a {
     text-decoration: none;
 }
-body{
-    background-image: url(../imagenes/fondo-abstracto-moderno-azul-rojo-blanco-colorido_222229-3632.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
-
-a{
+a {
     color: aliceblue;
 }
