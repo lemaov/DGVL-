@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-body {
-    font-family: sans-serif;
-    margin: 0;
-}
-
 a {
     text-decoration: none;
 }
@@ -90,30 +85,21 @@ p {
 }
 
 body {
-    background-image: url(../imagenes/fondo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-image: url(../imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
 }
+
 
 /*PACHA*/
 
-
-.content{
-    margin-left: 20px;
-    justify-content: center;
-    height: 17rem;
-    width: 20rem;
-    background-color: rgb(11, 11, 87);
-    border-radius: 10%;
-    border-color: #111;
-    border-width: 10%;
-    color: white;
-
-}
-
-.content-num{
+.content {
     margin-left: 20px;
     justify-content: center;
     height: 17rem;
@@ -124,24 +110,36 @@ body {
     border-width: 10%;
     color: white;
 }
-img{
-    justify-content: center;
-}
 
-.content-mail{
+.content-num {
     margin-left: 20px;
     justify-content: center;
     height: 17rem;
     width: 20rem;
-    background-color: rgb(11, 11, 87) ;
+    background-color: rgb(11, 11, 87);
     border-radius: 10%;
     border-color: #111;
     border-width: 10%;
     color: white;
-
 }
 
-.content-face{
+img {
+    justify-content: center;
+}
+
+.content-mail {
+    margin-left: 20px;
+    justify-content: center;
+    height: 17rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+}
+
+.content-face {
     margin-left: 20px;
     justify-content: center;
     height: 17 rem;
@@ -153,22 +151,16 @@ img{
     color: white;
 }
 
-.box{
+.box {
     justify-content: space-between;
     display: flex;
     padding: 250px;
 }
 
-a{
+a {
     text-decoration: none;
 }
-body{
-    background-image: url(../imagenes/fondo-abstracto-moderno-azul-rojo-blanco-colorido_222229-3632.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
-
-a{
+a {
     color: aliceblue;
 }
