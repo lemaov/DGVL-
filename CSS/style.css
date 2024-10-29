@@ -182,6 +182,7 @@ h2 {
 .imagen {
     margin: 15px 500px 350px;
     width: 250px;
+    border-radius: 20%;
 }
 video {
     position: absolute;
