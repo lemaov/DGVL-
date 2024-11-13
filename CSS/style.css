@@ -32,7 +32,7 @@ header {
 nav a {
     font-weight: 600;
     padding-right: 10px;
-    color: rgb(167, 42, 42)
+    color: rgb(167, 42, 42);
 }
 
 nav a:hover {
@@ -98,6 +98,33 @@ nav a:hover {
     0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0);
     margin-top: 70px;
+}
+
+.int {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 200px;
+    width: 100%;
+    background-image: url(../imagenes/headermod.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-color: rgba(240, 0, 0, 0.89);
+    border-top-width: 10px;
+    border-top-style: outset;
+    border-bottom-color: rgba(240, 0, 0, 0.89);
+    border-bottom-width: 10px;
+    border-bottom-style: inset;
+}
+
+.int_titulo {
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
+    margin-right: 5%;
+    h1 {
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 }
 
 p {
@@ -202,6 +229,36 @@ h2 {
 
 .alonso {
     padding: 50px;
+}
+
+.alonso :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.alhua :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.starligh :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.bosch :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.paradox :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
 }
 
 .imagen {
