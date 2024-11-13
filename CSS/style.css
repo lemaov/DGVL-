@@ -60,7 +60,13 @@ nav a:hover {
         font-weight: 900;
     }
     p {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+}
+
+.exp:hover {
+    h2 {
+        text-decoration: underline;
     }
 }
 
@@ -80,7 +86,13 @@ nav a:hover {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     p {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.pre:hover {
+    h2 {
+        text-decoration: underline;
     }
 }
 
