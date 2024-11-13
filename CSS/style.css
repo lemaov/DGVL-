@@ -12,7 +12,7 @@ a {
 
 header {
     display: flex;
-    height: 70px;
+    height: 80px;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
     align-items: center;
@@ -286,6 +286,7 @@ video {
     align-items: center;
     border-radius: 7%;
 }
+
 .formulario {
     width: 400px;
     background: #24303c;
@@ -296,10 +297,12 @@ video {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
+
 .formulario h3 {
     font-size: 22px;
     margin-bottom: 20px;
 }
+
 .datos {
     width: 100%;
     background: #24303c;
@@ -310,11 +313,13 @@ video {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
 }
+
 .formulario p {
     height: 40px;
     text-align: center;
     font-size: 18px;
 }
+
 .formulario .boton {
     width: 100%;
     background: #1f53c5;
