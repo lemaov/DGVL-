@@ -25,3 +25,37 @@
 .contacto {
     margin-top: 25px;
 }
+
+
+.content{
+
+    justify-content: center;
+    height: 10rem;
+    width: 10rem;
+    background: #fa1010;
+    border-radius: 10%;
+
+}
+
+.content-num{
+    
+    justify-content: center;
+    height: 10rem;
+    width: 15rem;
+    background-color: #fa1010;
+    border-radius: 10%;
+    border-color: #111;
+}
+img{
+    justify-content: center;
+}
+
+.content-mail{
+    justify-content: center;
+    height: 10rem;
+    width: 15rem;
+    background: #fa1010;
+    border-radius: 10%;
+    border-color: #111;
+
+}
