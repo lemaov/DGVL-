@@ -189,6 +189,12 @@ nav a:hover {
     }
 }
 
+.products:hover {
+    h2 {
+        text-decoration: underline;
+    }
+}
+
 .alonso {
     padding: 50px;
 }
@@ -495,4 +501,55 @@ video {
     font-size: 16px;
     display: flex;
     justify-content: center;
+}
+
+.galeria {
+    img {
+        border-radius: 0%;
+    }
+}
+
+.cont-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+section {
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.titulo {
+    font-size: xx-large;
+    color: blanchedalmond;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(135deg, blue, black);
+    border-color: black;
+    border-width: 1px;
+    border-style: groove;
+    -webkit-text-stroke: 1px #111;
+}
+
+.galeria {
+    margin-left: 0px;
 }
