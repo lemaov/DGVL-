@@ -19,14 +19,33 @@ header {
     padding: 10px;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
-
 .logo img {
     height: 80px;
     margin-right: 10px;
+}
+
+
+/**/
+
+.inicio {
+    display: flex;
+    justify-content: baseline;
+}
+
+.imagen {
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.texto {
+    margin-left: 0%
+}
+
+.video {
+    margin-right: 0px;
+    height: 350px;
+    width: 400px;
+    background-color: black;
 }
 
 nav a {
@@ -288,10 +307,6 @@ p {
     color: white;
 }
 
-img {
-    justify-content: center;
-}
-
 .content-mail {
     margin-left: 20px;
     justify-content: center;
@@ -382,11 +397,6 @@ body {
     margin-right: 30px;
 }
 
-img {
-    justify-content: center;
-    border-radius: 40%;
-}
-
 .content-mail {
     margin-left: 20px;
     justify-content: center;
@@ -430,19 +440,6 @@ a {
 
 h2 {
     bottom: 10px;
-}
-
-.imagen {
-    margin: 15px 500px 350px;
-    width: 250px;
-    border-radius: 5%;
-}
-
-video {
-    position: absolute;
-    bottom: 100px;
-    top: 250px;
-    right: 375px;
 }
 
 .contenedor {
