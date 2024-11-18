@@ -380,21 +380,23 @@ body {
     animation: anim 2.5s linear forwards;
     margin-top: -100px;
     font-family: 'Bebas Neue' monospace;
+
     h2 {
         font-size: 4vw;
-        color: #0b0be4;
+        color: #06067e;
         text-transform: uppercase;
         font-size: 4rem;
         cursor: pointer;
         transition: .3s linear;
         color: transparent;
-        -webkit-text-stroke: 2px rgb(12, 12, 223);
-        background-image: linear-gradient(to left, rgb(9, 7, 134), rgb(22, 22, 172), rgb(14, 13, 13), rgb(24, 4, 95));
+        -webkit-text-stroke: 2px rgb(5, 5, 170);
+        background-image: linear-gradient(to left, rgb(4, 4, 156), rgb(22, 22, 172), rgb(10, 10, 10), rgb(36, 6, 182));
         background-size: 300%;
         -webkit-background-clip: text;
         animation: move 30s linear infinite;
     }
 }
+
 
 @keyframes move {
     100% {
@@ -403,8 +405,8 @@ body {
 }
 
 h2:hover {
-    color: #0f0cbb;
-    text-shadow: 0 0 10px rgba(16, 69, 214, 0.5), 0 0 20px rgba(16, 69, 214, 0.5) 0 0 40px rgba(16, 69, 214, 0.5) 0 0 80px rgba(16, 69, 214, 0.5) 0 0 160px rgba(16, 69, 214, 0.5) 0 0 320px rgba(16, 69, 214, 0.5);
+    color: #060680;
+    text-shadow: 0 0 10px rgba(10, 82, 228, 0.5), 0 0 20px rgba(4, 4, 202, 0.5) 0 0 40px rgba(16, 69, 214, 0.5) 0 0 80px rgba(16, 69, 214, 0.5) 0 0 160px rgba(16, 69, 214, 0.5) 0 0 320px rgba(16, 69, 214, 0.5);
 }
 
 @keyframes anim {
