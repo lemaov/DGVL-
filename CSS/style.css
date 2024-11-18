@@ -19,14 +19,33 @@ header {
     padding: 10px;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
-
 .logo img {
     height: 80px;
     margin-right: 10px;
+}
+
+
+/**/
+
+.inicio {
+    display: flex;
+    justify-content: baseline;
+}
+
+.imagen {
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.texto {
+    margin-left: 0%
+}
+
+.video {
+    margin-right: 0px;
+    height: 350px;
+    width: 400px;
+    background-color: black;
 }
 
 nav a {
@@ -50,7 +69,7 @@ nav a:hover {
     width: 500px;
     height: 200px;
     margin-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-left: 50px;
     border-radius: 5%;
     text-align: center;
@@ -62,11 +81,23 @@ nav a:hover {
     p {
         font-family: Georgia, 'Times New Roman', Times, serif
     }
+    animation-name: expa;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 .exp:hover {
     h2 {
         text-decoration: underline;
+    }
+}
+
+@keyframes expa {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
     }
 }
 
@@ -76,8 +107,8 @@ nav a:hover {
     padding: 2em 0;
     width: 500px;
     height: 300px;
-    margin-bottom: 0;
-    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-right: 40px;
     margin-left: 50px;
     border-radius: 5%;
     text-align: center;
@@ -88,11 +119,64 @@ nav a:hover {
     p {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+    animation-name: prea;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
 }
 
 .pre:hover {
     h2 {
         text-decoration: underline;
+    }
+}
+
+@keyframes prea {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.pro {
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
+    padding: 2em 0;
+    width: 500px;
+    height: 420px;
+    margin-bottom: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 5%;
+    text-align: center;
+    padding: 2em 0;
+    img {
+        border-radius: 0%;
+    }
+    h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    animation-name: proa;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.pro:hover {
+    h2 {
+        text-decoration: underline;
+    }
+}
+
+@keyframes proa {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
     }
 }
 
@@ -110,6 +194,58 @@ nav a:hover {
     0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0);
     margin-top: 70px;
+    animation-name: productsa;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes productsa {
+    from {
+        transform: translateX(200%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.products:hover {
+    h2 {
+        text-decoration: underline;
+    }
+}
+
+.alonso {
+    padding: 50px;
+}
+
+.alonso :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.alhua :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.starligh :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.bosch :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.paradox :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
 }
 
 .int {
@@ -143,26 +279,11 @@ p {
     margin: 20px 0;
 }
 
-
 .contacto {
     margin-top: 25px;
 }
 
-
-.content{
-    margin-left: 20px;
-    justify-content: center;
-    height: 17rem;
-    width: 20rem;
-    background-color: rgb(11, 11, 87);
-    border-radius: 10%;
-    border-color: #111;
-    border-width: 10%;
-    color: white;
-
-}
-
-.content-num{
+.content {
     margin-left: 20px;
     justify-content: center;
     height: 17rem;
@@ -173,24 +294,32 @@ p {
     border-width: 10%;
     color: white;
 }
-img{
-    justify-content: center;
-}
 
-.content-mail{
+.content-num {
     margin-left: 20px;
     justify-content: center;
     height: 17rem;
     width: 20rem;
-    background-color: rgb(11, 11, 87) ;
+    background-color: rgb(11, 11, 87);
     border-radius: 10%;
     border-color: #111;
     border-width: 10%;
     color: white;
-
 }
 
-.content-face{
+.content-mail {
+    margin-left: 20px;
+    justify-content: center;
+    height: 17rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+}
+
+.content-face {
     margin-left: 20px;
     justify-content: center;
     height: 17 rem;
@@ -202,25 +331,26 @@ img{
     color: white;
 }
 
-.box{
+.box {
     justify-content: space-between;
     display: flex;
     padding: 250px;
 }
 
-a{
+a {
     text-decoration: none;
 }
-body{
+
+body {
     background-image: url(../imagenes/fondo-abstracto-moderno-azul-rojo-blanco-colorido_222229-3632.avif);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
-a{
+a {
     color: aliceblue;
 }
+
 body {
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,78 +369,66 @@ body {
 
 /*PACHA*/
 
-.titulo{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   text-align: center;
-   border-bottom: .7vw solid #0e0c0c;
-   overflow: hidden;
-   animation: anim 2.5s linear forwards;
-   margin-top: -100px;
-   font-family: 'Bebas Neue' monospace;
-
-
-
-   h2{
-    font-size: 4vw;
-    color: #0b0be4;
-    text-transform: uppercase;
-    font-size: 4rem;
-    cursor: pointer;
-    transition: .3s linear;
-    color: transparent;
-    -webkit-text-stroke: 2px rgb(12, 12, 223);
-    background-image: linear-gradient(to left,
-    rgb(9, 7, 134), rgb(22, 22, 172), rgb(14, 13, 13), rgb(24, 4, 95));
-    background-size: 300%;
-    -webkit-background-clip: text;
-    animation: move 30s linear infinite;
-   }
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-bottom: .7vw solid #0e0c0c;
+    overflow: hidden;
+    animation: anim 2.5s linear forwards;
+    margin-top: -100px;
+    font-family: 'Bebas Neue' monospace;
+    h2 {
+        font-size: 4vw;
+        color: #0b0be4;
+        text-transform: uppercase;
+        font-size: 4rem;
+        cursor: pointer;
+        transition: .3s linear;
+        color: transparent;
+        -webkit-text-stroke: 2px rgb(12, 12, 223);
+        background-image: linear-gradient(to left, rgb(9, 7, 134), rgb(22, 22, 172), rgb(14, 13, 13), rgb(24, 4, 95));
+        background-size: 300%;
+        -webkit-background-clip: text;
+        animation: move 30s linear infinite;
+    }
 }
 
 @keyframes move {
-    100%{
+    100% {
         background-position: 20000px 0;
     }
-    
 }
 
-h2:hover{
+h2:hover {
     color: #0f0cbb;
-    text-shadow: 0 0 10px rgba(16, 69, 214, 0.5),
-                 0 0 20px rgba(16, 69, 214, 0.5)
-                 0 0 40px rgba(16, 69, 214, 0.5)
-                 0 0 80px rgba(16, 69, 214, 0.5)
-                 0 0 160px rgba(16, 69, 214, 0.5)
-                 0 0 320px rgba(16, 69, 214, 0.5); 
+    text-shadow: 0 0 10px rgba(16, 69, 214, 0.5), 0 0 20px rgba(16, 69, 214, 0.5) 0 0 40px rgba(16, 69, 214, 0.5) 0 0 80px rgba(16, 69, 214, 0.5) 0 0 160px rgba(16, 69, 214, 0.5) 0 0 320px rgba(16, 69, 214, 0.5);
 }
+
 @keyframes anim {
-    0%{
+    0% {
         width: 0;
         height: 0;
     }
-    30%{
+    30% {
         width: 50%;
         height: 0;
     }
-    60%{
+    60% {
         width: 59vw;
         height: 12vw;
     }
-    80%{
+    80% {
         width: 59vw;
         height: 12vw;
     }
-    100%{
+    100% {
         width: 59vw;
         height: 12vw;
     }
-    
 }
-
-
 
 .content {
     margin-left: 0px;
@@ -325,7 +443,6 @@ h2:hover{
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
     margin-right: 30px;
     text-align: center;
-
 }
 
 .content-num {
@@ -348,21 +465,19 @@ img {
     border-radius: 40%;
 }
 
-.animacion{ 
+.animacion {
     animation-name: EntradaArriba;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
-
 }
 
 @keyframes EntradaArriba {
-    from{
+    from {
         transform: translateY(-200%);
     }
-    to{
+    to {
         transform: translateY(0);
     }
-    
 }
 
 .content-mail {
@@ -404,13 +519,12 @@ img {
 
 @keyframes float {
     0%,
-    100%{
+    100% {
         transform: translateY(0);
     }
-    50%{
+    50% {
         transform: translateY(-20px);
     }
-    
 }
 
 a {
@@ -423,53 +537,6 @@ a {
 
 h2 {
     bottom: 10px;
-}
-
-.alonso {
-    padding: 50px;
-}
-
-.alonso :hover {
-    border-color: red;
-    border-width: 10px;
-    border-style: groove;
-}
-
-.alhua :hover {
-    border-color: red;
-    border-width: 10px;
-    border-style: groove;
-}
-
-.starligh :hover {
-    border-color: red;
-    border-width: 10px;
-    border-style: groove;
-}
-
-.bosch :hover {
-    border-color: red;
-    border-width: 10px;
-    border-style: groove;
-}
-
-.paradox :hover {
-    border-color: red;
-    border-width: 10px;
-    border-style: groove;
-}
-
-.imagen {
-    margin: 15px 500px 350px;
-    width: 250px;
-    border-radius: 5%;
-}
-
-video {
-    position: absolute;
-    bottom: 100px;
-    top: 250px;
-    right: 375px;
 }
 
 .contenedor {
@@ -528,4 +595,84 @@ video {
     font-size: 16px;
     display: flex;
     justify-content: center;
+}
+
+.cont-ambos {
+    display: flex;
+    justify-content: 20px baseline;
+    justify-content: space-around;
+}
+
+.galeria {
+    img {
+        border-radius: 0%;
+    }
+}
+
+.cont-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+section {
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.titulo {
+    font-size: xx-large;
+    color: blanchedalmond;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(135deg, blue, black);
+    border-color: black;
+    border-width: 1px;
+    border-style: groove;
+    -webkit-text-stroke: 1px #111;
+}
+
+.cont-galeria2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 25px;
+}
+
+.titulo2 {
+    font-size: xx-large;
+    color: blanchedalmond;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(135deg, blue, black);
+    border-color: black;
+    border-width: 1px;
+    border-style: groove;
+    -webkit-text-stroke: 1px #111;
+}
+
+.galeria2 {
+    margin-right: 0px;
+    img {
+        border-radius: 0%;
+    }
 }
