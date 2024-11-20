@@ -816,82 +816,60 @@ select {
 }
 /*Lema*/
 .dgvl_log {
-    position: relative; /* Este contenedor es relativo para posicionar la imagen dentro de él */
+    position: relative;
 }
 
-/* Imagen */
+
 .imagen {
-    position: absolute; /* Usamos absolute para mover la imagen dentro de su contenedor */
-    top: 50px;  /* Mueve la imagen 100px desde la parte superior */
-    left: -80px;  /* Mueve la imagen 50px desde la parte izquierda */
-    width: 500px; /* Ancho de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
+    position: absolute; 
+    top: 50px;
+    left: -80px;
+    width: 500px;
+    height: auto;
 }
 
 .video_contenedor {
-    position: relative; /* Necesario si usas 'absolute' en el video */
+    position: relative;
 }
 
 video {
-    position: absolute;  /* Mueve el video con respecto a su contenedor */
-    top: 50px;          /* Distancia desde la parte superior de la página */
-    left: 50px;          /* Distancia desde el lado izquierdo de la página */
-    width: 600px;        /* Ancho del video */
-    height: auto;        /* Mantiene la relación de aspecto */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 600px;
+    height: auto;
 }
 .DGVL_sistemas {
-    top: 50px;          /* Distancia desde la parte superior de la página */
-    left: 100px;          /* Distancia desde el lado izquierdo de la página */
-    width: 600px;        /* Ancho del video */
-    height: auto;        /* Mantiene la relación de aspecto */
+    top: 50px; 
+    left: 100px; 
+    width: 600px;
+    height: auto;
 }
 body {
-    position: relative; /* Asegura que el contenido se posicione en relación con el body */
-    height: 100vh; /* Ocupa toda la altura de la ventana */
+    position: relative;
+    height: 100vh; 
 }
 
-/* Posiciona el contenedor .DGVL_sistemas en un lugar específico */
+
 .DGVL_sistemas {
-    position: absolute; /* Lo posicionamos de manera absoluta */
-    top: 300px;         /* 150px desde la parte superior de la página */
-    left: 400px;         /* 50px desde el borde izquierdo de la página */
-    width: 500px;       /* Ancho del contenedor */
-    padding: 20px;      /* Relleno interno */
-    background-color: #cacaca; /* Fondo gris claro */
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    width: 500px;
+    padding: 20px;
+    background-color: #cacaca;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .Ventas {
-    position: absolute; /* Lo posicionamos de manera absoluta */
-    top: 550px;         /* 150px desde la parte superior de la página */
-    left: 400px;         /* 50px desde el borde izquierdo de la página */
-    width: 500px;       /* Ancho del contenedor */
-    padding: 20px;      /* Relleno interno */
-    background-color: #cacaca; /* Fondo gris claro */
+    position: absolute; 
+    top: 550px;         
+    left: 400px;         
+    width: 500px;       
+    padding: 20px;      
+    background-color: #cacaca; 
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-section {
-    display: flex;
-    width: 700px;
-    height: 430px;
-    margin-top: 400px;
-  }
-  
-  section img {
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: 0.8;
-    transition: 0.5s ease;
-  }
-  
-  /* hover es una pseudo clase */
-  
-  section img:hover {
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-  }
+
 /*Lema*/
