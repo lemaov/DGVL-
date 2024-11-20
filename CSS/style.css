@@ -129,6 +129,7 @@ body {
 
 img {
     justify-content: center;
+    border-radius: 40%;
 }
 
 .content-mail {
@@ -179,20 +180,24 @@ h2 {
 .alonso {
     padding: 50px;
 }
+
 .imagen {
     margin: 15px 500px 350px;
     width: 250px;
     border-radius: 20%;
+    border-radius: 5%;
 }
+
 video {
     position: absolute;
     bottom: 100px;
-    top:250px;
+    top: 250px;
     right: 375px;
 }
+
 .contenedor {
-    background-color: rgb(122, 124, 124);
-    margin-top:30px ;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 30px;
@@ -201,4 +206,5 @@ video {
     justify-content: center;
     align-items: center;
     border-radius: 7%;
+    box-shadow: 10px 20px 30px;
 }
