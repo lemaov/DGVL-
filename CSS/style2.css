@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../imagenes/fondo-abstracto-moderno-azul-rojo-blanco-colorido_222229-3632.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    color: rgb(167, 42, 42);
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+.cont-ambos {
+    display: flex;
+    justify-content: 20px baseline;
+    justify-content: space-around;
+}
+
+.galeria {
+    img {
+        border-radius: 0%;
+    }
+}
+
+.cont-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+section {
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.titulo1 {
+    font-size: xx-large;
+    color: blanchedalmond;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(135deg, blue, black);
+    border-color: black;
+    border-width: 1px;
+    border-style: groove;
+    -webkit-text-stroke: 1px #111;
+}
+
+.cont-galeria2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 25px;
+}
+
+.titulo2 {
+    font-size: xx-large;
+    color: blanchedalmond;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(135deg, blue, black);
+    border-color: black;
+    border-width: 1px;
+    border-style: groove;
+    -webkit-text-stroke: 1px #111;
+}
+
+.galeria2 {
+    margin-right: 0px;
+    img {
+        border-radius: 0%;
+    }
+}

@@ -1,6 +1,9 @@
+/*Inicio de Commits de TP4*/
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -9,16 +12,11 @@ a {
 
 header {
     display: flex;
-    height: 70px;
+    height: 80px;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
 }
 
 .logo img {
@@ -26,10 +24,34 @@ header {
     margin-right: 10px;
 }
 
+
+/**/
+
+.inicio {
+    display: flex;
+    justify-content: baseline;
+}
+
+.imagen {
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.texto {
+    margin-left: 0%
+}
+
+.video {
+    margin-right: 0px;
+    height: 350px;
+    width: 400px;
+    background-color: black;
+}
+
 nav a {
     font-weight: 600;
     padding-right: 10px;
-    color: rgb(167, 42, 42)
+    color: rgb(167, 42, 42);
 }
 
 nav a:hover {
@@ -42,46 +64,228 @@ nav a:hover {
 }
 
 .exp {
-    margin-left: 0px;
     background-color: rgb(255, 255, 255);
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
     width: 500px;
     height: 200px;
-    margin-top: 20px;
-    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-bottom: 20px;
     margin-left: 50px;
     border-radius: 5%;
     text-align: center;
     padding: 2em 0;
+    h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 900;
+    }
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+    animation-name: expa;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.exp:hover {
+    h2 {
+        text-decoration: underline;
+    }
+}
+
+@keyframes expa {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 .pre {
     background-color: rgb(255, 255, 255);
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
     padding: 2em 0;
-    width: 1x;
+    width: 500px;
     height: 300px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 50px;
+    border-radius: 5%;
+    text-align: center;
+    padding: 2em 0;
+    h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    animation-name: prea;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.pre:hover {
+    h2 {
+        text-decoration: underline;
+    }
+}
+
+@keyframes prea {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.pro {
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
+    padding: 2em 0;
+    width: 500px;
+    height: 420px;
     margin-bottom: 0;
     margin-right: 50px;
     margin-left: 50px;
     border-radius: 5%;
     text-align: center;
     padding: 2em 0;
+    img {
+        border-radius: 0%;
+    }
+    h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    animation-name: proa;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.pro:hover {
+    h2 {
+        text-decoration: underline;
+    }
+}
+
+@keyframes proa {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 .products {
+    h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
     background-color: rgb(255, 255, 255);
     margin-right: 50px;
     width: 1000px;
     border-radius: 5%;
     text-align: center;
     padding: 2em 0;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
-    margin-top: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0);
+    margin-top: 70px;
+    animation-name: productsa;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes productsa {
+    from {
+        transform: translateX(200%);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 p {
     margin: 20px 0;
+}
+
+.contacto {
+    margin-top: 25px;
+}
+
+.content {
+    margin-left: 20px;
+    justify-content: center;
+    height: 17rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+}
+
+.content-num {
+    margin-left: 20px;
+    justify-content: center;
+    height: 17rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+}
+
+img {
+    justify-content: center;
+}
+
+.content-mail {
+    margin-left: 20px;
+    justify-content: center;
+    height: 17rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+}
+
+.content-face {
+    margin-left: 20px;
+    justify-content: center;
+    height: 17 rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+}
+
+.box {
+    justify-content: space-between;
+    display: flex;
+    padding: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../imagenes/fondo-abstracto-moderno-azul-rojo-blanco-colorido_222229-3632.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: aliceblue;
 }
 
 body {
@@ -95,6 +299,9 @@ body {
     font-family: sans-serif;
     margin: 0;
 }
+
+
+/*Gastooo*/
 
 
 /*PACHA*/
@@ -175,11 +382,17 @@ a {
 
 h2 {
     bottom: 10px;
+    .products:hover {
+        h2 {
+            text-decoration: underline;
+        }
+    }
 }
 
 .alonso {
     padding: 50px;
 }
+
 
 .imagen {
     margin: 15px 500px 350px;
@@ -187,12 +400,325 @@ h2 {
     border-radius: 20%;
     border-radius: 5%;
 }
+.alonso :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
 
-video {
+.alhua :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.starligh :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.bosch :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.paradox :hover {
+    border-color: red;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.int {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 200px;
+    width: 100%;
+    background-image: url(../imagenes/headermod.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-color: rgba(240, 0, 0, 0.89);
+    border-top-width: 10px;
+    border-top-style: outset;
+    border-bottom-color: rgba(240, 0, 0, 0.89);
+    border-bottom-width: 10px;
+    border-bottom-style: inset;
+}
+
+.int_titulo {
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
+    margin-right: 5%;
+    h1 {
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+p {
+    margin: 20px 0;
+}
+
+.contacto {
+    margin-top: 25px;
+}
+
+.content {
+    margin-left: 20px;
+    justify-content: center;
+    height: 17rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+}
+
+.content-num {
+    margin-left: 20px;
+    justify-content: center;
+    height: 17rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+}
+
+.content-mail {
+    margin-left: 20px;
+    justify-content: center;
+    height: 17rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+}
+
+.content-face {
+    margin-left: 20px;
+    justify-content: center;
+    height: 17 rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+}
+
+.box {
+    justify-content: space-between;
+    display: flex;
+    padding: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../imagenes/fondo-abstracto-moderno-azul-rojo-blanco-colorido_222229-3632.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: aliceblue;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../imagenes/fondo-abstracto-moderno-azul-rojo-blanco-colorido_222229-3632.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+/*Gastooo*/
+
+
+/*PACHA*/
+
+.titulo {
     position: absolute;
-    bottom: 100px;
-    top: 250px;
-    right: 375px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-bottom: .7vw solid #0e0c0c;
+    overflow: hidden;
+    animation: anim 2.5s linear forwards;
+    margin-top: -100px;
+    font-family: 'Bebas Neue' monospace;
+    h2 {
+        font-size: 4vw;
+        color: #06067e;
+        text-transform: uppercase;
+        font-size: 4rem;
+        cursor: pointer;
+        transition: .3s linear;
+        color: transparent;
+        -webkit-text-stroke: 2px rgb(5, 5, 170);
+        background-image: linear-gradient(to left, rgb(4, 4, 156), rgb(22, 22, 172), rgb(10, 10, 10), rgb(36, 6, 182));
+        background-size: 300%;
+        -webkit-background-clip: text;
+        animation: move 30s linear infinite;
+    }
+}
+
+@keyframes move {
+    100% {
+        background-position: 20000px 0;
+    }
+}
+
+h2:hover {
+    color: #060680;
+    text-shadow: 0 0 10px rgba(10, 82, 228, 0.5), 0 0 20px rgba(4, 4, 202, 0.5) 0 0 40px rgba(16, 69, 214, 0.5) 0 0 80px rgba(16, 69, 214, 0.5) 0 0 160px rgba(16, 69, 214, 0.5) 0 0 320px rgba(16, 69, 214, 0.5);
+}
+
+@keyframes anim {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    30% {
+        width: 50%;
+        height: 0;
+    }
+    60% {
+        width: 59vw;
+        height: 12vw;
+    }
+    80% {
+        width: 59vw;
+        height: 12vw;
+    }
+    100% {
+        width: 59vw;
+        height: 12vw;
+    }
+}
+
+.content {
+    margin-left: 0px;
+    justify-content: center;
+    height: 19rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
+    margin-right: 30px;
+    text-align: center;
+}
+
+.content-num {
+    margin-left: 20px;
+    justify-content: center;
+    height: 19rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
+    margin-right: 30px;
+    text-align: center;
+}
+
+img {
+    justify-content: center;
+    border-radius: 40%;
+}
+
+.animacion {
+    animation-name: EntradaArriba;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes EntradaArriba {
+    from {
+        transform: translateY(-200%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.content-mail {
+    margin-left: 20px;
+    justify-content: center;
+    height: 19rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
+    margin-right: 30px;
+    text-align: center;
+}
+
+.content-face {
+    margin-left: 20px;
+    justify-content: center;
+    height: 19 rem;
+    width: 20rem;
+    background-color: rgb(11, 11, 87);
+    border-radius: 10%;
+    border-color: #111;
+    border-width: 10%;
+    color: white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0);
+    text-align: center;
+}
+
+.box {
+    justify-content: space-between;
+    display: flex;
+    padding: 200px;
+    animation: float 2s ease-in-out infinite;
+    margin-top: 90px;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: aliceblue;
+}
+
+h2 {
+    bottom: 10px;
 }
 
 .contenedor {
@@ -208,3 +734,164 @@ video {
     border-radius: 7%;
     box-shadow: 10px 20px 30px;
 }
+
+.formulario {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    animation: float 2s ease-in-out infinite;
+    margin-top: 30px;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.formulario h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.datos {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.boton2 {
+    background: #1f53c5;
+}
+
+textarea {
+    background: #24303c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white
+}
+
+.genero {
+    font-size: 20px;
+}
+
+select {
+    background: #1f53c5;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.formulario .boton {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin-left: 16px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Lema*/
+.dgvl_log {
+    position: relative; /* Este contenedor es relativo para posicionar la imagen dentro de él */
+}
+
+/* Imagen */
+.imagen {
+    position: absolute; /* Usamos absolute para mover la imagen dentro de su contenedor */
+    top: 50px;  /* Mueve la imagen 100px desde la parte superior */
+    left: -80px;  /* Mueve la imagen 50px desde la parte izquierda */
+    width: 500px; /* Ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.video_contenedor {
+    position: relative; /* Necesario si usas 'absolute' en el video */
+}
+
+video {
+    position: absolute;  /* Mueve el video con respecto a su contenedor */
+    top: 50px;          /* Distancia desde la parte superior de la página */
+    left: 50px;          /* Distancia desde el lado izquierdo de la página */
+    width: 600px;        /* Ancho del video */
+    height: auto;        /* Mantiene la relación de aspecto */
+}
+.DGVL_sistemas {
+    top: 50px;          /* Distancia desde la parte superior de la página */
+    left: 100px;          /* Distancia desde el lado izquierdo de la página */
+    width: 600px;        /* Ancho del video */
+    height: auto;        /* Mantiene la relación de aspecto */
+}
+body {
+    position: relative; /* Asegura que el contenido se posicione en relación con el body */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+/* Posiciona el contenedor .DGVL_sistemas en un lugar específico */
+.DGVL_sistemas {
+    position: absolute; /* Lo posicionamos de manera absoluta */
+    top: 300px;         /* 150px desde la parte superior de la página */
+    left: 400px;         /* 50px desde el borde izquierdo de la página */
+    width: 500px;       /* Ancho del contenedor */
+    padding: 20px;      /* Relleno interno */
+    background-color: #cacaca; /* Fondo gris claro */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.Ventas {
+    position: absolute; /* Lo posicionamos de manera absoluta */
+    top: 550px;         /* 150px desde la parte superior de la página */
+    left: 400px;         /* 50px desde el borde izquierdo de la página */
+    width: 500px;       /* Ancho del contenedor */
+    padding: 20px;      /* Relleno interno */
+    background-color: #cacaca; /* Fondo gris claro */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+section {
+    display: flex;
+    width: 700px;
+    height: 430px;
+    margin-top: 400px;
+  }
+  
+  section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+  }
+  
+  /* hover es una pseudo clase */
+  
+  section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+/*Lema*/
